@@ -19,6 +19,8 @@ Penggunaan loop pedal dapat sangat bervariasi, mulai dari praktik pribadi hingga
 
 # Peringkat (Timeline sendiri)
 ## Peringat Exprorasi Code dan litar
+Code project saya ambil di link berkenaan. jd peringkat ini saya akan study litar dan code untuk mana2 ruang boleh naik taraf atau follow saja
+ ### https://www.instructables.com/arduino-programable-5-pedal-switcher/
 ![412285068_10160878591932412_4362640011742802646_n](https://github.com/megatshidiq/loop-pedal/assets/30791471/84e9ed80-a401-4ca1-b336-05bf3907b4d6)
 
 -
