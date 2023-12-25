@@ -18,7 +18,9 @@ Connectivity: Loop pedal biasanya dilengkapi dengan berbagai opsi konektivitas, 
 Penggunaan loop pedal dapat sangat bervariasi, mulai dari praktik pribadi hingga pertunjukan panggung. Alat ini memberikan gitaris kebebasan untuk menjadi satu orang band dengan kemampuan membuat lapisan-lapisan suara yang kompleks dengan menggunakan hanya satu instrumen.
 
 # Peringkat (Timeline sendiri)
-- Peringat Exprorasi Code dan litar
+## Peringat Exprorasi Code dan litar
+![412285068_10160878591932412_4362640011742802646_n](https://github.com/megatshidiq/loop-pedal/assets/30791471/84e9ed80-a401-4ca1-b336-05bf3907b4d6)
+
 -
 -
 
