@@ -21,3 +21,5 @@ Penggunaan loop pedal dapat sangat bervariasi, mulai dari praktik pribadi hingga
 - Peringat Exprorasi Code dan litar
 -
 -
+
+![alt text]([http://url/to/img.png](https://www.guitarlobby.com/wp-content/uploads/2021/08/Guitar-Pedal-Order-Featured-Image.jpg)https://www.guitarlobby.com/wp-content/uploads/2021/08/Guitar-Pedal-Order-Featured-Image.jpg)
