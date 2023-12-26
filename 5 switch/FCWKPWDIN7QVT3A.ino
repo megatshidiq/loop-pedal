@@ -36,11 +36,12 @@ byte midiChannel = 0;
  *  - Configures the relay and LED pins as output pins.
  *  - Turns on and off the relays and LEDs in a test phase.
  *  - Reads the preset values for the default mode.
- *  - Initializes the serial communication for MIDI communication.
+ *  - Initializes the Serial communication for MIDI communication.
  *  - Optionally erases the EEPROM memory.
  */
 void setup()
 {
+  Serial.begin(9600);
   for(int i=0; i<5; i++) /* setup test phase */
   {
     pinMode(relayPin[i], OUTPUT);
@@ -53,7 +54,7 @@ void setup()
     digitalWrite(ledPin[i], LOW);
   }
 readPreset(11, 1, 0); /* initiate  default mode */
-Serial.begin(31250); /* for midi communication - pin 1 TX */
+//Serial.begin(31250); /* for midi communication - pin 1 TX */
 /*for (int i = 0; i < 10; i++) // erase eeprom (optional)
    // EEPROM.write(i, 0); */
 
@@ -62,8 +63,8 @@ Serial.begin(31250); /* for midi communication - pin 1 TX */
 /*********************************************************/
 void midiProg(byte status, int data) 
  {
-  Serial.write(status);
-  Serial.write(data);
+  //Serial.write(status);
+  //Serial.write(data);
  }
  /*********************************************************/
 void memory(int addr, int led)
@@ -135,50 +136,65 @@ void loop()
       { 
     case 'a':  // a to x 
       writeOut(0); // relay
+      Serial.println("Case a");
       break; 
     case 'b': 
       writeOut(1);
+      Serial.println("Case b");
       break;
     case 'c': 
       writeOut(2);
+      Serial.println("Case c");
       break;
     case 'd': 
       writeOut(3);
+      Serial.println("Case d");
       break;
     case 'e': 
       writeOut(4);
+      Serial.println("Case e");
       break;  
     /****************************** STORE PRESET MODE */       
     case 'f': 
       memory(11,0);  //addr, led
+      Serial.println("Case f");
       break; 
     case 'g': 
       memory(21,1);
+      Serial.println("Case g");
       break;
     case 'h': 
       memory(31,2);
+        Serial.println("Case h");
       break;
     case 'i': 
       memory(41,3);
+      Serial.println("Case i");
       break;
     case 'j': 
       memory(51,4);
+      Serial.println("Case j");
       break;
     /****************************** READ PRESET MODE */      
     case 'k':  
       readPreset(11, 1, 0); // addr, pcNum, relay
+      Serial.println("Case k");
       break; 
     case 'l':  
       readPreset(21, 2, 1);
+      Serial.println("Case l");
       break;   
     case 'm': 
       readPreset(31, 3, 2);
+      Serial.println("Case m");
       break;
     case 'n': 
       readPreset(41, 4, 3);
+      Serial.println("Case n");
       break;
     case 'o': 
       readPreset(51, 5, 4);
+      Serial.println("Case o");
       break;   
       }
    }
